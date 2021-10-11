@@ -1,0 +1,12 @@
+.product_component{
+    float: left;
+    width: 31%;
+    height: 400px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin: 1%;
+    background: rgb(211, 211, 211);
+}
+.product_component img{
+    width: 100%;
+}

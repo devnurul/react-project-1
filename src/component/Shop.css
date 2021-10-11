@@ -1,0 +1,9 @@
+.shopPage{
+    display:flex;
+}
+.sideBar{
+    width: 20%;
+}
+.shop{
+    width: 80%;
+}

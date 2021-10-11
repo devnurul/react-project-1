@@ -19,8 +19,18 @@ function App() {
               <Route exact path ="/">
                   <Shop></Shop>
               </Route>
+          
               <Route path ="/shop">
                   <Shop></Shop>
+              </Route>
+              <Route path ="/checkOut">
+                  
+              </Route>
+              <Route path ="/review">
+                  
+              </Route>
+              <Route path ="/inventory">
+                  
               </Route>
               <Route path ="*">
                   <Error_404></Error_404>
