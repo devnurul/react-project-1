@@ -11,7 +11,7 @@ const Product = (props) => {
     return (
        <div className="product_component ">
            <img src={img} alt="" />
-           <h2> <Link to ={"/product/" + key}> {name.slice(0, 35)} </Link></h2>
+           <h2> <Link to ={"/product/" + key}> {name.slice(0, 35)} .. </Link></h2>
            <h3>Category:{category}</h3>
            <h4>Price:${price}</h4>
            <button>Add To Cart <FaCartArrowDown/> </button>

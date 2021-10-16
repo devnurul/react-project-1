@@ -19,7 +19,7 @@ const SingleProduct = () => {
     return (
         <div>
             {
-                // <Product products={product}></Product>
+                
             }
         </div>
     );
