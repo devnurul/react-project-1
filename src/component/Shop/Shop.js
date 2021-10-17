@@ -11,7 +11,7 @@ const Shop = () => {
         fetch(url)
         .then( res => res.json())
         .then( data => setProducts(data.slice(20,35)))
-    },[])~
+    },[])
 
     return (
         <>
